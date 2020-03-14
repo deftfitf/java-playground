@@ -11,3 +11,4 @@ rootProject.name = 'java-playground'
 
 include 'hbase-playground'
 include 'spring-boot'
+include 'datasketches'
