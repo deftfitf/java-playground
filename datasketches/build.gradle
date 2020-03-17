@@ -1,0 +1,8 @@
+plugins {
+    id 'java'
+    id 'scala'
+}
+dependencies {
+    compile group: 'org.apache.datasketches', name: 'datasketches-java', version: '1.2.0-incubating'
+    compile group: 'com.typesafe.akka', name: 'akka-actor-typed_2.13', version: '2.6.4'
+}
